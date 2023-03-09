@@ -1,5 +1,3 @@
-import { get } from 'https';
-
 export const sum = (n: number[]): number => (n.length === 1 ? n[0] : n[0] + sum(n.slice(1)));
 
 export const getFibonacci_o = (count: number, result: number[] = []): number[] => {
